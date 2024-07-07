@@ -42,11 +42,12 @@ header span {
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 60px;
     /* 📍 Свойствa flexbox для размещения блока с текстом и изображения в ряд, и центрирования их по вертикали */
 }
 
 .text-wrapper {
-    max-width: 425px;
+    max-width: 420px;
     /* 📍 Cвойство для ограничения ширины блока с текстом в первой секции */
 }
 
@@ -126,7 +127,7 @@ select:hover,
 }
 
 .skills-block {
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 20px;
     /* 📍 Свойства flexbox для расположения формы над элементами с классом .label */
 }
@@ -134,6 +135,7 @@ select:hover,
 .skills {
     display: flex;
     flex-direction: column;
+    gap: 20px;
     /* 📍 Свойства flexbox для расположения элементов с классом .label */
 }
 
@@ -212,6 +214,6 @@ footer {
 }
 
 .footer-link:hover {
-    text-decoration: underline;
+    text-align: center;
     /* 📍 Стили для ссылки при наведении курсора */
 }
